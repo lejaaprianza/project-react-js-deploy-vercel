@@ -20,20 +20,13 @@ const NavbarComponent = (props) => {
     <div>
       <Navbar color="light" light expand="md">
         <Container>
-          <NavbarBrand href="/">L-A</NavbarBrand>
+          <NavbarBrand href="/"><h1>
+            L-A
+            </h1>
+            </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="mr-auto" navbar>
-              <NavItem>
-                <NavLink href="/components/">Home</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/components/">About Us</NavLink>
-              </NavItem>
-            </Nav>
-            <div>
-              <NavbarText>Simple Text</NavbarText>
-            </div>
+            
           </Collapse>
         </Container>
       </Navbar>
