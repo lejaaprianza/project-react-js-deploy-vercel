@@ -6,7 +6,7 @@ import {
 } from "../actions/userAction";
 
 let initialState = {
-  title: "Leja Aprianza",
+  title: "Basic React Project",
   getUsersList: false,
   errorUsersList: false,
   getUsersDetail: false,
