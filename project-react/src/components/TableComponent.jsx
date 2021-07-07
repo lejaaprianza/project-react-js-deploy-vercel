@@ -76,7 +76,7 @@ const TableComponent = (props) => {
       dataField: "link",
       text: "Action",
       headerStyle: () => {
-        return { width: "25%" };
+        return { width: "23%" };
       },
       formatter: (rowContent, row) => {
         return (
