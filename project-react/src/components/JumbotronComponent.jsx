@@ -1,5 +1,3 @@
-import { faInfo } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Jumbotron, Button, Container } from "reactstrap";
 import { connect } from "react-redux";

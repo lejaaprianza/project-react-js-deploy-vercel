@@ -4,10 +4,6 @@ import {
   Navbar,
   NavbarToggler,
   NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  NavbarText,
   Container,
 } from "reactstrap";
 
